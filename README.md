@@ -1,16 +1,20 @@
-build:
+# TODO:
+ - добавить работу с gdb (скрипты и описание)
+
+# Usage:
+## build:
     make build
 
-clean:
+## clean:
     make clean
 
-write flash:
+## write flash:
     make flash
     ...OR..
     st-flash write ./out/hexbin/f407_empty.bin 0x8000000
 
-read flash:
+## read flash:
     st-flash read ./firmware.bin 0x8000000
 
-erase flash:
+## erase flash:
     st-flash erase
