@@ -10,7 +10,7 @@
 
 ## write flash:
     make flash
-    ...OR..
+    + OR...
     st-flash write ./out/hexbin/f407_empty.bin 0x8000000
 
 ## read flash:
