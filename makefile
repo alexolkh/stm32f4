@@ -186,7 +186,6 @@ rm_elf:
 
 
 flash:
-	#$(FLASHER) --reset erase 
 	$(FLASHER) --reset $(FLASHER_PRAM)
 
 debug:
