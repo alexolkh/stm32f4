@@ -1,0 +1,1 @@
+arm-none-eabi-gdb -x /home/alex/STM32empty/gdb/lnx/scr.gdbs 

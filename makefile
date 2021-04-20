@@ -40,7 +40,7 @@ COMMON_FLAGS += -mfix-cortex-m3-ldrd
 COMMON_FLAGS += -ffast-math
 COMMON_FLAGS += -DCLK_CPU=$(CPU_FREQ)
 COMMON_FLAGS += $(DEFINE_CONST)
-COMMON_FLAGS += -g
+# COMMON_FLAGS += -g
 
 
 # Флаги компиляции специфичные для Си

@@ -1,0 +1,4 @@
+file /home/alex/STM32empty/out/hexbin/f407_empty.elf
+target remote localhost:3333
+monitor halt reset
+load
