@@ -1,0 +1,4 @@
+file C:\\_work\\stm32f4_\\stm32f4\\out\\hexbin\\f407_empty.elf
+target remote localhost:3333
+monitor halt reset
+load
